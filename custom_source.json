@@ -1,0 +1,17 @@
+{
+  "id": "yung_renzel_custom_source",
+  "name": "Custom Stream Source",
+  "version": "1.0.0",
+  "description": "Custom pluggable audio source for BitChord client.",
+  "author": "Yung-Renzel",
+  "type": "audio_provider",
+  "baseUrl": "https://pipedapi.kavin.rocks",
+  "endpoints": {
+    "search": "/search?q={query}&filter=music",
+    "stream": "/streams/{id}"
+  },
+  "settings": {
+    "preferredQuality": "high",
+    "format": "m4a"
+  }
+}
